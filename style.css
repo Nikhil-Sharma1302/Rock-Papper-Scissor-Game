@@ -1,0 +1,52 @@
+       body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+
+h1 {
+    height: 80px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+}
+.choices {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.choices img {
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+.choices img:hover {
+    border: 7px solid black;
+}
+.score-board {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+}
+.score {
+    height: 100px;
+    width: 30px;
+    margin-right: 180px;
+    font-size:45px;
+    text-align: center;
+    line-height: 30px;
+}
+.msg {
+    height: 50px;
+    font-size: 20px;
+    width: 390px;
+    background-color: black;
+    color: white;
+    margin-left: 550px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 17px;
+    margin-top: 40px;
+}
